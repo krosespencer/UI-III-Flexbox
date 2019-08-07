@@ -103,7 +103,7 @@ div.services_pic {
 	padding: 10px 0 10px 0;
 }
 
-.header {
+header {
 	display:flex;
 	justify-content: space-evenly;
 }
@@ -111,20 +111,17 @@ div.services_pic {
 div.title {
 	font-size: 68px;
 	display: flex;
-	flex-direction: row;
-	width: 50%;
-	text-align:center;
 	justify-content: flex-start;
 }
 
 header .title button {
 	display: flex;
+	justify-content: flex-start;
 	width: 14%;
 	color: grey;
 	background-color: white;
 	border: 1px solid black;
 }
-
 
 header .title button:hover{
 	background: black;
@@ -142,13 +139,7 @@ main {
 
 .top-content {
 	width: 876px;
-}
-
-.top-content div {
 	display: flex;
-	width: 49%;
-	text-align: justify;
-	padding: 10px;
 }
 
 .middle-img {
@@ -157,13 +148,8 @@ main {
 
 .bottom-content {
 	width: 876px;
-}
-
-.bottom-content div {
 	display: flex;
-	width: 33%;
-	text-align: justify;
-	padding: 10px;
+	justify-content: space-around;
 }
 
 .contact {
