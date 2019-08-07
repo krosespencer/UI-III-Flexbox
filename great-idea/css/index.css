@@ -64,28 +64,24 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-h1 {
-	font-family: 'Dokdo', sans-serif;
-}
 
-nav {
+nav.navbar {
+	display:inline-block;
 	overflow: hidden;
 	background-color: #ffffff;
   	position: fixed; /* Set the navbar to fixed position */
   	top: 0; /* Position the navbar at the top of the page */
 	margin: auto;
-	padding-bottom: 10px;
-	width: 1200px;
+	padding: 10px;
+	width: 100%;
 }
 
 nav a {
+	display:inline-block;
 	text-decoration: none;
-	color: white;
-	text-shadow:
-	-1px -1px 0 #000,
-	1px -1px 0 #000,
-	-1px 1px 0 #000,
-	1px 1px 0 #000;
+	color: gray;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
 	padding: 25px;
 }
 
@@ -94,29 +90,41 @@ nav a:hover {
 	color: white;
 }
 
-nav .logo {
+img.logo {
+	display:inline-block;
 	padding-left: 50px;
 }
 
-header {
-	line-height: 0.75;
-	margin: 50px 0px 50px 100px;
-	width: 876px;
+div.services_pic {
+	display: flex;
+	width: 100%;
+	height: auto;
+	margin:10px;
+	padding: 10px 0 10px 0;
 }
 
-header .title {
+.header {
+	display:flex;
+	justify-content: space-evenly;
+}
+
+div.title {
 	font-size: 68px;
-	text-align: center;
 	display: flex;
-	margin: 0px 15px;
-	margin-right: 100px;
+	flex-direction: row;
+	width: 50%;
+	text-align:center;
+	justify-content: flex-start;
 }
 
 header .title button {
+	display: flex;
+	width: 14%;
+	color: grey;
+	background-color: white;
 	border: 1px solid black;
-	margin-top: 0px;
-	padding: 6px 40px;
 }
+
 
 header .title button:hover{
 	background: black;
