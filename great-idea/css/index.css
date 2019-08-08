@@ -123,9 +123,12 @@ div.services_pic {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 .container button {
+	width: 50%;
+	height: 25px;
 	color: grey;
 	background-color: white;
 	border: 1px solid black;
