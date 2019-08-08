@@ -72,8 +72,8 @@ nav {
 	background-color: #ffffff;
   	position: fixed; /* Set the navbar to fixed position */
   	top: 0; /* Position the navbar at the top of the page */
-	margin: auto;
-	padding: 10px;
+	/* margin: auto;
+	padding: 10px; */
 	width: 100%;
 }
 
@@ -92,14 +92,6 @@ nav a:hover {
 
 img.logo {
 	padding-left: 50px;
-}
-
-div.services_pic {
-	display: flex;
-	width: 100%;
-	height: auto;
-	margin:10px;
-	padding: 10px 0 10px 0;
 }
 
 .container {
@@ -143,9 +135,47 @@ div.services_pic {
 	width: 35%;
 }
 
+div.services_pic {
+	display: flex;
+	align-items: center;
+	width:100%;
+	height:350px;
+}
+div.services_head {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width:100%;
+	height: 100px;
+}
+
 main {
 	margin-top: 30px; 
   }
+
+.boxsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.box {
+    width: 45%;
+    height: 20%;
+	padding: 30px;
+	margin: 10px;
+    border: 1px solid black;
+    background: whitesmoke;
+}
+.box a {
+    width: 50%;
+	height: 25px;
+	border-radius:5px;
+	color: grey;
+	background-color: white;
+	border: 1px solid black;
+}
 
 .top-content {
 	width: 876px;
@@ -169,9 +199,13 @@ div.services, div.products, div.vision {
 	margin-top: 30px;
 }
 
-body { /* centers the website */
+body {
 	width: 876px;
 	margin: 0 auto;
+}
+
+li.services_list {
+	list-style: square;
 }
 
 footer {
