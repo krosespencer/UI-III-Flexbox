@@ -163,18 +163,20 @@ main {
 .box {
     width: 45%;
     height: 20%;
-	padding: 30px;
-	margin: 10px;
     border: 1px solid black;
-    background: whitesmoke;
+	background: whitesmoke;
+	padding: 20px;
+	margin: 10px;
 }
-.box a {
-    width: 50%;
+.box a button{
+    width: 25%;
 	height: 25px;
 	border-radius:5px;
-	color: grey;
+	color: black;
 	background-color: white;
 	border: 1px solid black;
+	padding: 2px;
+	margin: 5px;
 }
 
 .top-content {
